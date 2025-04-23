@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import Searchbar from './components/Searchbar'
+import Image from './components/Image'
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
 
   return (
     <>
+    <Searchbar setSearchPhotos={setSearchPhotos} searchPhotos={searchPhotos}/>
+    <Image photos={photos}/>
      
     </>
   )

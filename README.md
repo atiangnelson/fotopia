@@ -21,3 +21,23 @@ The Searchbar is a simple and reusable React component for handling user input t
 (3).Styled with utility classes (e.g., .bar, .search, .btn).
 
 (4).Ready for integration with APIs (e.g. Unsplash search).
+
+
+
+📸 React Photo Search App
+
+
+About the Project...
+
+This is a simple photo search and display application built with React. It integrates with the Unsplash API to fetch random or searched images, and displays them in a responsive grid.
+
+🚀 Features
+
+🔍 Search for photos using keywords.
+
+🖼️ Display random images on load.
+
+⚡ Dynamic updates with API integration.
+
+🎨 Clean, component-based structure with customizable styling.
+

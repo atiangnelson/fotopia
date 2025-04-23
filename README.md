@@ -53,3 +53,10 @@ Fetching data from Unsplash API.
 Managing the search state.
 
 Rendering Searchbar and Image components.
+
+
+
+2.Searchbar.jsx
+
+
+A controlled input component that updates the search query state.

@@ -1,4 +1,4 @@
-This is the readme for group one(1)...
+***This is the readme for group one(1)...***
 
 
 This is a simple React component that displays a list of images with their titles and descriptions. It's designed to work with an array of photo objects (such as those returned from APIs like Unsplash).
@@ -69,3 +69,18 @@ A controlled input component that updates the search query state.
 
 
 Displays the list of fetched photos, including their title and description.
+
+
+
+🧪 Example Usage
+
+
+On first load, the app fetches 100 random images.
+
+Use the search bar to find images by keyword (e.g., "nature", "cats").
+
+Images update instantly on query change.
+
+
+
+***Proudly made by group one(1)***

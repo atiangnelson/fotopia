@@ -29,3 +29,6 @@
     border-radius: 29%;
     width: 260px;
 }
+.search ::placeholder {
+    text-align: center;
+}

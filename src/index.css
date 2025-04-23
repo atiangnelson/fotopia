@@ -9,3 +9,12 @@
     align-items: center;
     padding-top: 50px;
 }
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 25px;
+    height: 35px;
+    text-align: center;
+}

@@ -24,11 +24,11 @@
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     padding-top: 2%;
 }
 .img {
-    border-radius: 29%;
+    border-radius: 25px;
     width: 260px;
 }
 .search ::placeholder {

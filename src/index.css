@@ -25,3 +25,7 @@
     flex-wrap: wrap;
     padding-top: 2%;
 }
+.img {
+    border-radius: 29%;
+    width: 260px;
+}

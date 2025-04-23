@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Image = () => {
+const Image = ({photos}) => {
   return (
     <div className="gen">
             {photos.map((photo) => (

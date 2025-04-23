@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playwrite+DE+Grund:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
 *{
     margin: 0;
@@ -33,6 +34,10 @@
 }
 .search ::placeholder {
     text-align: center;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
 }
 .btn {
     width: 35px;
@@ -46,3 +51,10 @@ h3 {
     font-weight: 20px;
     font-style: normal;
 }
+p {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+}
+

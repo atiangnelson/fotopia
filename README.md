@@ -1,4 +1,6 @@
 This is the readme for group one(1)...
+
+
 This is a simple React component that displays a list of images with their titles and descriptions. It's designed to work with an array of photo objects (such as those returned from APIs like Unsplash).
 
 
@@ -60,3 +62,10 @@ Rendering Searchbar and Image components.
 
 
 A controlled input component that updates the search query state.
+
+
+
+3.Image.jsx
+
+
+Displays the list of fetched photos, including their title and description.

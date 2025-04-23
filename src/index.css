@@ -28,14 +28,18 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
+    
     flex-wrap: wrap;
-    gap: 10px 1px;
+    gap: 3px 1px;
     padding-top: 2%;
+
 }
 .img {
     border-radius: 25px;
     width: 260px;
+ 
 }
+
 .search ::placeholder {
     text-align: center;
     font-family: "Playwrite DE Grund", cursive;

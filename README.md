@@ -41,3 +41,15 @@ This is a simple photo search and display application built with React. It integ
 
 🎨 Clean, component-based structure with customizable styling.
 
+
+
+1.App.jsx
+
+
+Handles the core logic for:
+
+Fetching data from Unsplash API.
+
+Managing the search state.
+
+Rendering Searchbar and Image components.

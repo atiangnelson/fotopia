@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-const Searchbar = () => {
+const Searchbar = ({searchPhotos, setSearchPhotos}) => {
   return (
-    <div>Searchbar</div>
-  )
-}
+    <div className="bar">
 
-export default Searchbar
+    <input
+     type="text"
+     placeholder="search photo"
+     className="search"
+     value={searchPhotos}
+    onChange={(e) => setSearchPhotos(e.target.value)}
+   />
+   <button className="btn">
+     <i class="fa-magnifying-glass"></i> 
+    </button>    
+    </div>
+  );
+};
+
+export default Searchbar;

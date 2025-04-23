@@ -18,3 +18,10 @@
     height: 35px;
     text-align: center;
 }
+.gen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}

@@ -3,7 +3,7 @@ const categories=["Nature","Cars","Art","Food","Animals","Transport","People","T
 const Category = ({setSearchPhotos}) => {
    
   return (
-    <div className='category'>
+    <div className='ctg'>
         {categories.map((category)=>(
             <button key={category} onClick={()=>setSearchPhotos(category)}className='category'>{category}</button>
         ))}

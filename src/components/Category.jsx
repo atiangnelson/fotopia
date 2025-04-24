@@ -1,12 +1,12 @@
 import React from 'react'
-
+const categories=["Nature","Cars","Art","Food","Animals","Transport","People","Technology"]
 const Category = ({setSearchPhotos}) => {
-    const category=["Nature","Cars","Art","Food","Animals","Transport","People","Technology"]
+   
   return (
     <div>
-        {category.map((category)=>{
+        {categories.map((category)=>(
             <button key={category} onClick={()=>setSearchPhotos(category)}className='category'>{category}</button>
-        })}
+        ))}
     </div>
   )
 }

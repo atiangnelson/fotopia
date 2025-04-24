@@ -5,7 +5,7 @@ const Category = ({setSearchPhotos}) => {
   return (
     <div>
         {category.map((category)=>{
-            <button key={category} onClick={()=>setSearchPhotos(category)}>{category}</button>
+            <button key={category} onClick={()=>setSearchPhotos(category)}className='category'>{category}</button>
         })}
     </div>
   )

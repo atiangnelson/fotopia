@@ -14,6 +14,7 @@ const Footer = () => {
             CHECK OUT FOR MORE UPDATES SOON!!!!
         </p>
         </div>
+        <h3>THANK YOU FOR VISITING</h3>
         
 
     </div>

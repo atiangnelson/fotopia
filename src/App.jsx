@@ -4,6 +4,7 @@ import Image from './components/Image'
 import Head from './components/Head'
 import Category from './components/Category'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
   return (
     <>
     <Head/>
+    <Navbar/>
     <Searchbar setSearchPhotos={setSearchPhotos} searchPhotos={searchPhotos}/>
     <Category setSearchPhotos={setSearchPhotos}/>
     <Image photos={photos}/>

@@ -3,12 +3,9 @@ import logo from './assets/logo.jpg'
 
 const Searchbar = ({searchPhotos, setSearchPhotos}) => {
   return (
-    <>
-    <div>
-     <img src="{logo}" alt="logo" className='logo'/>
-    </div>
+   
     <div className="bar">
-
+<img src="{logo}" alt="logo" className='logo'/>
     <input
      type="text"
      placeholder="search photo"
@@ -17,10 +14,11 @@ const Searchbar = ({searchPhotos, setSearchPhotos}) => {
     onChange={(e) => setSearchPhotos(e.target.value)}
    />
    <button className="btn">
-     <i class="fa-magnifying-glass"></i> 
-    </button>    
+     search
+    </button>
+    <img src="{logo}" alt="logo" className='logo'/>    
     </div>
-    </>
+    
   );
 };
 

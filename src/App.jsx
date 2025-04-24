@@ -30,6 +30,7 @@ function App() {
     <>
     <Head/>
     <Searchbar setSearchPhotos={setSearchPhotos} searchPhotos={searchPhotos}/>
+    <Category setSearchPhotos={setSearchPhotos}/>
     <Image photos={photos}/>
      
     </>

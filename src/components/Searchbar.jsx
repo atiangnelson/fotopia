@@ -1,11 +1,11 @@
 import React from 'react';
-
+import logo from './assets/logo.jpg'
 
 const Searchbar = ({searchPhotos, setSearchPhotos}) => {
   return (
     <>
     <div>
-     
+     <img src="{logo}" alt="logo" className='logo'/>
     </div>
     <div className="bar">
 

@@ -1,5 +1,5 @@
 import React from 'react'
-const categories=["Nature","Cars","Art","Food","Animals","Transport","People","Technology"]
+const categories=["Nature","Cars","Art","Food","Animals","Transport","People","Technology","Landscapes","Cities"]
 const Category = ({setSearchPhotos}) => {
    
   return (

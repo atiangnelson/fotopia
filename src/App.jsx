@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Searchbar from './components/Searchbar'
 import Image from './components/Image'
 import Head from './components/Head'
+import Category from './components/Category'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <>
     <Head/>
     <Searchbar setSearchPhotos={setSearchPhotos} searchPhotos={searchPhotos}/>
+    <Category/>
     <Image photos={photos}/>
      
     </>

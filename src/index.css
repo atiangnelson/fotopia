@@ -65,5 +65,8 @@ p {
     font-weight: 20px;
     font-style: normal;
 }
-
+.logo {
+    width: 200px;
+    height: 100px;
+}
 

@@ -3,6 +3,7 @@ import Searchbar from './components/Searchbar'
 import Image from './components/Image'
 import Head from './components/Head'
 import Category from './components/Category'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
     <Searchbar setSearchPhotos={setSearchPhotos} searchPhotos={searchPhotos}/>
     <Category setSearchPhotos={setSearchPhotos}/>
     <Image photos={photos}/>
-     
+     <Footer/>
     </>
   )
 }

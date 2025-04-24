@@ -16,8 +16,7 @@ const Searchbar = ({searchPhotos, setSearchPhotos}) => {
    />
    <button className="btn">
      search
-    </button>
-    <img src={logo} alt="logo" className='logo'/>    
+    </button>    
     </div>
     
   );

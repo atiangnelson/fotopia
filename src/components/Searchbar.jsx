@@ -14,9 +14,7 @@ const Searchbar = ({searchPhotos, setSearchPhotos}) => {
     onChange={(e) => setSearchPhotos(e.target.value)}
     
    />
-   <button className="btn">
-     search
-    </button>    
+      
     </div>
     
   );

@@ -2,6 +2,10 @@ import React from 'react';
 
 const Searchbar = ({searchPhotos, setSearchPhotos}) => {
   return (
+    <>
+    <div>
+      
+    </div>
     <div className="bar">
 
     <input
@@ -15,6 +19,7 @@ const Searchbar = ({searchPhotos, setSearchPhotos}) => {
      <i class="fa-magnifying-glass"></i> 
     </button>    
     </div>
+    </>
   );
 };
 

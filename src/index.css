@@ -38,7 +38,8 @@
 .img {
     border-radius: 25px;
     width: 260px;
- 
+    height: 180px;
+    object-fit: cover;
 }
 
 .search ::placeholder {
@@ -81,8 +82,8 @@ p {
 }
 .category {
     width: 100px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     border-radius: 20px;
 }
 .abt {

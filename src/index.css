@@ -89,3 +89,27 @@ p {
     color: black;
     border-radius: 20px;
 }
+.abt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.foot {
+    background: #000;
+}
+.foot > h3 {
+    color: white;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abt > p {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+}
